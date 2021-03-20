@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+
+body {
+  font-family: 'Comfortaa', cursive;
+  background-color: #FFEB3B;
+  margin-bottom: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.main-heading {
+  font-size: 22px;
+  padding-left: 5px;
+}
+
+.section {
+  display: flex; 
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.section div {
+  width: 400px;
+}
+
+.section .heading {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 4px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 15px 10px;
+}
+
+.row span {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.row input {
+  padding: 10px;
+  outline: 0;
+  border: 0;
+  transition: 150ms ease-in;
+  background-color: rgba(244, 244, 244, 0.7);
+}
+
+.row input:hover,
+.row input:focus,
+.row input:active {
+  cursor: pointer;
+  background-color: rgba(244, 244, 244, 0.9);
+}
+
+// colors
+.purple-bg {
+  background-color: purple;
+  color: white;
+}
+
+.gainsboro-bg {
+  background-color: gainsboro;
+}
+
+.white-bg {
+  background-color: white;
+}
